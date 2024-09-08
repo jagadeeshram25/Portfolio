@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Portfolio Website/style.css">
+    <script src="https://kit.fontawesome.com/36ba32b0e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Portfolio Website/img/icon.png"class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark "onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <img src="https://cdn.vectorstock.com/i/500p/53/42/user-member-avatar-face-profile-icon-vector-22965342.jpg" >
+                <h1>Hi, I'm <span>J</span>agadeesh Ram <br>from Andhra Pradesh</h1>
+                <p><i>Computer Science and Engineering</i><br>2023-2027</p>
+            </div>
+      </div>
+  </div>
+  <!-- ------------------------------------About-------------------------------------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://cdn.vectorstock.com/i/500p/53/42/user-member-avatar-face-profile-icon-vector-22965342.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p>👋 Hi there! I'm Jagadeesh Ram, a recent graduate with a passion for software development and a strong desire to contribute to innovative projects. 💻 During my academic journey, I honed my skills in programming languages such as Java,Python,Front End,SQL,Machine Learning and I'm eager to apply them to real-world challenges.🌟 I thrive in collaborative environments and love solving complex problems. I'm excited to join a dynamic team where I can learn and grow while making a meaningful impact. My dedication to continuous learning and adaptability makes me a strong candidate to tackle new technologies and take on challenges head-on.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End Development</span><br>HTML CSS and Java Script</li>
+                        <li><span>Back-End Development</span><br>Working with PHP,SQL</li>
+                        <li><span>Coding Language</span><br>Java,Basics in python</li>
+                        <li><span>Machine Learning</span><br>ML algorithms,DL,NLP</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                                    
+                        <li><span>aug 2024-sep 2024</span><br>Intern at Bharat Intern</li>
+                        <li><span>Sep 2023-March 2024</span><br>Technical Member at CSI Club</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-2027</span><br>B.Tech(CSE) at SRM Amaravathi</li>
+                        <li><span>2021-2023</span><br>Intermediate at Sri Bhavishya Vijayawada</li>
+                        <li><span>2020-2021</span><br>SSC at Sri chaitanya </li>
+                        
+     
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!---------------------Services------------------------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>Brain Tumor Classifation</h2>
+                <p>Developed an impactful project employing cutting-edge CNN algorithms topredict and classify tumors with high accuracy, proficiency in utilizing deeplearning forthe critical medical diagnostics, driven by a passion to leverage technology for solutions.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cubes-stacked"></i>
+                <h2>Diabetes Prediction</h2>
+                <p>Developed a sophisticated machine learning model for diabetes prediction,
+                employing state-of-the-art algorithms and techniques.
+                Various Machine Learning Algorithms are used some of them are SVM,Logistic
+                Regression,Decision tree,KNN.Using these algorithms.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>College Management System</h2>
+                <p>Built a project to digitize and streamline the day-to-day operations of colleges
+                and universities.
+                This system ensures data security by authenticating users.In this project mainly
+                focused on two users.One user is Lecturer and other user is student.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-face-laugh-beam"></i>
+                <h2>Text Based Emotion Classifier</h2>
+                <p>Built a project where it detects the emotion in the text and classifies the various
+                emotions present in the text.
+                Various machine learning algorithms are used to classify the emotions in the
+                text they are Logistic Regressiopn and Count Vectorizer.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+  </div>
+<!-- -------------------Portfolio---------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer">
+                    <h3>Brain Tumor Classification</h3>
+                    <p>It will classifies various tumors present in the brain using various deep convolutional neural networks.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer">
+                    <h3>Diabetes Prediction</h3>
+                    <p>It will predict whether the person is having diabetes or not using various machine learning algorithms.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png">
+                <div class="layer">
+                    <h3>College Management System</h3>
+                    <p>Built a project to digitize and streamline the day-to-day operations of colleges
+                    and universities.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-4.png">
+                <div class="layer">
+                    <h3>Text Based Emotion Classifier</h3>
+                    <p>It will detect various emotions present in the text using nlp and machine learning algorithm.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+</div>
+<!--------------------Contact------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span>Me</span></h1>
+                <p><i class="fa-solid fa-envelope"></i> ram954299@gmail.com</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/Keerthi_Vardhani_Goli_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyrigth &copy; Jagadeesh Ram,My Portfolio <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+  </script>
+  <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-150px ";
+    }
+  </script>      
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwd5Vs9u4emt5IDn28kMYPj_ZSqYTEZbKmnxKlxUXgYeO-P4S4OevSBu9Tuk4hnIqSnIQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
